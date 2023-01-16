@@ -16,7 +16,7 @@
 }
 .heading-casino{
     background: var(--heading-bg);
-   
+
 }
 .heading-first{
     color: var(--theme-color);
@@ -28,31 +28,31 @@ font-size: 34px;
 
 .heading-last{
     font-family: 'Basis Grotesque Pro';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 21px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
 
-text-transform: uppercase;
+    text-transform: uppercase;
 
-color: #CECBCB;
+    color: #CECBCB;
 }
 .heading-last i{
     color: var(--theme-color);
 }
 
 .sports-card{
-    
-background: var(--heading-bg);
-border: 1px solid var(--heading-bg);
-border-radius: 10px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-height: 84px;
-width:100%;
+
+    background: var(--heading-bg);
+    border: 1px solid var(--heading-bg);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 84px;
+    width:100%;
 }
 .sports-card img{
     height: 29px;
@@ -60,15 +60,15 @@ width:100%;
 }
 .sports-card .title{
     font-family: 'Basis Grotesque Pro';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 28px;
-text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
 
-color: #CECBCB;
+    color: #CECBCB;
 
-opacity: 0.7;
+    opacity: 0.7;
 }
 .row.cards-container>*{
     padding-right: calc(var(--bs-gutter-x) * .2) !important;
