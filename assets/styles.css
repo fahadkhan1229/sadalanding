@@ -1,7 +1,33 @@
-body{
-    background:  #1E1E1E;
+body {
+    background: #1E1E1E;
 }
-.heading-casino{
-    background: #1A1918;
 
+.heading-casino {
+    background: #1A1918;
+}
+
+.right-menu {
+    float: right;
+    width: 81px;
+    height: 26px;
+    left: 1475.49px;
+    bottom: 5170px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #CECBCB;
+}
+
+.logo {
+    height: 110px;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
 }
