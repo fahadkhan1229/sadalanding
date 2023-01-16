@@ -7,17 +7,17 @@ body {
 }
 
 .right-menu {
-    float: right;
-    width: 81px;
     height: 26px;
+    width: 15%;
     left: 1475.49px;
     bottom: 5170px;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 12px;
     line-height: 26px;
+    margin-top: 1%;
     /* identical to box height */
-
+    display: flex;
     text-transform: uppercase;
 
     color: #CECBCB;
@@ -30,4 +30,15 @@ body {
 
 .header {
     display: flex;
+}
+
+.header-bg {
+    width: 100%;
+}
+
+.slider {
+    width: 100%;
+}
+.header-img{
+    height: 70%;
 }
