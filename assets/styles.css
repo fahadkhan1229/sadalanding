@@ -7,6 +7,10 @@
     font-family: Basis Grotesque Prot;
     src: url(assets/fonts/FontsFree-Net-BasisGrotesquePro-Regular.ttf);
   }
+  @font-face {
+    font-family: Whyte Inktrap;
+    src: url(assets/fonts/WhyteInktrap-Regular.woff);
+  }
 .body{
     background: var(--main-bg);
 }
@@ -16,11 +20,12 @@
 }
 .heading-first{
     color: var(--theme-color);
-    font-family: 'Whyte Inktrap';
+    /* font-family: 'Whyte Inktrap'; */
 font-style: normal;
 font-weight: 500;
 font-size: 34px;
 }
+
 .heading-last{
     font-family: 'Basis Grotesque Pro';
 font-style: normal;
@@ -72,5 +77,15 @@ opacity: 0.7;
 @media screen and (max-width:767px) {
     .sports-card .title {
         font-size: 11px;
+    }
+    .heading-first{
+        color: var(--theme-color);
+        font-family: 'Whyte Inktrap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    }
+    .card-header-img{
+        height: 20px;
     }
 }
